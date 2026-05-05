@@ -34,34 +34,42 @@ Beberapa proyek unggulan yang akan ditampilkan dalam portofolio ini antara lain:
 Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di mesin lokal kamu:
 
 ## 1. Kloning Repositori
-``` git clone [https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git](https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git) ```
-```cd ACPTeam-Portofolio ```
-
+   ```bash
+   git clone [https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git](https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git) 
+   cd ACPTeam-Portofolio
+   ```
 ## 2. Instalasi Dependensi
 
 Kamu bisa menggunakan salah satu dari package manager berikut:
 Bash
-```npm install```
+   ```bash
+   npm install
+   ```
 # atau
-```yarn install```
+   ```bash
+   yarn install
+   ```
 # atau
-```pnpm install```
+   ```bash
+   pnpm install
+   ```
 
 ## 3. Jalankan Development Server
 Bash
-```npm run dev```
+   ```bash 
+   npm run dev
+   ```
 # atau
-```yarn dev```
+   ```bash
+   yarn dev
+   ```
 
 Buka http://localhost:3000 di browsermu untuk melihat hasilnya. Halaman akan otomatis diperbarui setiap kali kamu melakukan perubahan pada app/page.tsx.
 🛠 Struktur Direktori
 
-    /src atau /app - Berisi routing dan komponen utama UI portofolio.
-
-    /public - Aset statis seperti gambar, logo, dan ikon.
-
+   /src atau /app - Berisi routing dan komponen utama UI portofolio.
+   /public - Aset statis seperti gambar, logo, dan ikon.
     next.config.ts - Konfigurasi inti Next.js.
-
     AGENTS.md & CLAUDE.md - Dokumentasi dan pedoman pengembangan (development guidelines).
 
 🤝 Kontribusi
