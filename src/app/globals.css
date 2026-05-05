@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-pixel: var(--font-pixel);
+
+  --color-neon-blue: #00f3ff;
+  --color-neon-purple: #bc13fe;
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  
+  --primary: #0284c7;
+  --primary-foreground: #ffffff;
+  
+  --secondary: #e2e8f0;
+  --secondary-foreground: #0f172a;
+  
+  --accent: #38bdf8;
+  --accent-foreground: #ffffff;
+}
+
+.dark {
+  --background: #020617;
+  --foreground: #f8fafc;
+  
+  --primary: #0ea5e9;
+  --primary-foreground: #ffffff;
+  
+  --secondary: #1e293b;
+  --secondary-foreground: #f8fafc;
+  
+  --accent: #00f3ff;
+  --accent-foreground: #020617;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Subtle glow utilities */
+.glow-text-blue {
+  text-shadow: 0 0 8px rgba(0, 243, 255, 0.3);
+}
+
+.glow-box-blue {
+  box-shadow: 0 0 8px rgba(0, 243, 255, 0.15);
+}
