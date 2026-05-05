@@ -1,4 +1,4 @@
-# 🚀 ACPTeam Portfolio
+### ACPTeam Portfolio
 
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -33,25 +33,25 @@ Beberapa proyek unggulan yang akan ditampilkan dalam portofolio ini antara lain:
 
 Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di mesin lokal kamu:
 
-### 1. Kloning Repositori
-`` git clone [https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git](https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git)
-cd ACPTeam-Portofolio ``
+## 1. Kloning Repositori
+``` git clone [https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git](https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git) ```
+```cd ACPTeam-Portofolio ```
 
-2. Instalasi Dependensi
+## 2. Instalasi Dependensi
 
 Kamu bisa menggunakan salah satu dari package manager berikut:
 Bash
-`` npm install ``
+```npm install```
 # atau
-``yarn install``
+```yarn install```
 # atau
-``pnpm install``
+```pnpm install```
 
-3. Jalankan Development Server
+## 3. Jalankan Development Server
 Bash
-``npm run dev``
+```npm run dev```
 # atau
-``yarn dev``
+```yarn dev```
 
 Buka http://localhost:3000 di browsermu untuk melihat hasilnya. Halaman akan otomatis diperbarui setiap kali kamu melakukan perubahan pada app/page.tsx.
 🛠 Struktur Direktori
