@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 ACPTeam Portfolio
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-First, run the development server:
+Selamat datang di repositori resmi **ACPTeam Portfolio**. Ini adalah aplikasi web portofolio modern yang dibangun menggunakan ekosistem Next.js untuk menampilkan berbagai inovasi, desain, dan solusi teknologi yang telah kami kembangkan.
 
+## ✨ Fitur Utama
+- **Modern & Cepat:** Dibangun dengan Next.js App Router dan dioptimalkan dengan font Geist.
+- **Tipe Data Aman:** Sepenuhnya dikembangkan menggunakan TypeScript.
+- **Desain Responsif:** Antarmuka yang bersih dan interaktif (mendukung integrasi desain bergaya WPAP atau minimalis).
+- **Siap Cloud:** Mudah di-deploy dan dapat diintegrasikan dengan *backend services* seperti Firebase maupun *container* Docker.
+
+## 💻 Tech Stack
+- **Framework:** Next.js
+- **Bahasa Utama:** TypeScript, JavaScript
+- **Styling:** CSS / Tailwind CSS (PostCSS)
+- **Environment:** Node.js, kompatibel dengan ekosistem Linux (termasuk OpenRC / daemon)
+
+## 📂 Sorotan Proyek (Featured Projects)
+Beberapa proyek unggulan yang akan ditampilkan dalam portofolio ini antara lain:
+
+1. **BeautyTech AI - FIKSI 2026** 🏆
+   Platform inovatif berbasis web di mana pengguna dapat melakukan pemindaian wajah (*face scan*) untuk mendapatkan rekomendasi dan solusi *skincare* yang dipersonalisasi. Dilengkapi dengan asisten *chat* AI untuk konsultasi.
+2. **Sistem Manajemen Database Pramuka** ⛺
+   Pengembangan dan perbaikan tata kelola *database* web untuk kebutuhan keanggotaan (seperti data tingkat Penegak, Sangga, dan Admin) menggunakan otomasi AI.
+3. **Nexora Studios Identity** 🎬
+   Eksplorasi desain profesional dan minimalis untuk identitas grup produksi film.
+
+## 🚀 Panduan Memulai (Getting Started)
+
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di mesin lokal kamu:
+
+### 1. Kloning Repositori
 ```bash
+git clone [https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git](https://github.com/ACPTeam-Dev/ACPTeam-Portofolio.git)
+cd ACPTeam-Portofolio
+
+2. Instalasi Dependensi
+
+Kamu bisa menggunakan salah satu dari package manager berikut:
+Bash
+
+npm install
+# atau
+yarn install
+# atau
+pnpm install
+
+3. Jalankan Development Server
+Bash
+
 npm run dev
-# or
+# atau
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka http://localhost:3000 di browsermu untuk melihat hasilnya. Halaman akan otomatis diperbarui setiap kali kamu melakukan perubahan pada app/page.tsx.
+🛠 Struktur Direktori
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    /src atau /app - Berisi routing dan komponen utama UI portofolio.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    /public - Aset statis seperti gambar, logo, dan ikon.
 
-## Learn More
+    next.config.ts - Konfigurasi inti Next.js.
 
-To learn more about Next.js, take a look at the following resources:
+    AGENTS.md & CLAUDE.md - Dokumentasi dan pedoman pengembangan (development guidelines).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🤝 Kontribusi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Kami sangat terbuka dengan masukan dan kolaborasi! Jika ada bug, error log, atau ingin menambahkan fitur baru (misalnya dukungan multibahasa termasuk opsi lokalisasi ke bahasa daerah), silakan buka Issue atau kirimkan Pull Request.
+📄 Lisensi
 
-## Deploy on Vercel
+MIT License - Bebas digunakan dan dimodifikasi untuk kebutuhan personal maupun tim.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Selain itu, aku juga telah membuatkan versi *file* berformat Markdown (`.md`) yang bisa langsung kamu unduh di bawah ini:
+
+
+```python?code_reference&code_event_index=7
+readme_content = """# 🚀 ACPTeam Portfolio
+
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+Selamat datang di repositori resmi **ACPTeam Portfolio**. Ini adalah aplikasi web portofolio modern yang dibangun menggunakan ekosistem Next.js untuk menampilkan berbagai inovasi, desain, dan solusi teknologi yang telah kami kembangkan.
+
+## ✨ Fitur Utama
+- **Modern & Cepat:** Dibangun dengan Next.js App Router dan dioptimalkan dengan font Geist.
+- **Tipe Data Aman:** Sepenuhnya dikembangkan menggunakan TypeScript.
+- **Desain Responsif:** Antarmuka yang bersih dan interaktif (mendukung integrasi desain bergaya WPAP atau minimalis).
+- **Siap Cloud:** Mudah di-deploy dan dapat diintegrasikan dengan *backend services* seperti Firebase maupun *container* Docker.
+
+## 💻 Tech Stack
+- **Framework:** Next.js
+- **Bahasa Utama:** TypeScript, JavaScript
+- **Styling:** CSS / Tailwind CSS (PostCSS)
+- **Environment:** Node.js, kompatibel dengan ekosistem Linux (termasuk OpenRC / daemon)
+
+## 📂 Sorotan Proyek (Featured Projects)
+Beberapa proyek unggulan yang akan ditampilkan dalam portofolio ini antara lain:
+
+1. **BeautyTech AI - FIKSI 2026** 🏆
+   Platform inovatif berbasis web di mana pengguna dapat melakukan pemindaian wajah (*face scan*) untuk mendapatkan rekomendasi dan solusi *skincare* yang dipersonalisasi. Dilengkapi dengan asisten *chat* AI untuk konsultasi.
+2. **Sistem Manajemen Database Pramuka** ⛺
+   Pengembangan dan perbaikan tata kelola *database* web untuk kebutuhan keanggotaan (seperti data tingkat Penegak, Sangga, dan Admin) menggunakan otomasi AI.
+3. **Nexora Studios Identity** 🎬
+   Eksplorasi desain profesional dan minimalis untuk identitas grup produksi film.
+
+## 🚀 Panduan Memulai (Getting Started)
+
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di mesin lokal kamu:
+
+### 1. Kloning Repositori
+
+2. Instalasi Dependensi
+
+Kamu bisa menggunakan salah satu dari package manager berikut:
+Bash
+
+npm install
+# atau
+yarn install
+# atau
+pnpm install
+
+3. Jalankan Development Server
+Bash
+
+npm run dev
+# atau
+yarn dev
+
+Buka http://localhost:3000 di browsermu untuk melihat hasilnya. Halaman akan otomatis diperbarui setiap kali kamu melakukan perubahan pada app/page.tsx.
+🛠 Struktur Direktori
+
+    /src atau /app - Berisi routing dan komponen utama UI portofolio.
+
+    /public - Aset statis seperti gambar, logo, dan ikon.
+
+    next.config.ts - Konfigurasi inti Next.js.
+
+    AGENTS.md & CLAUDE.md - Dokumentasi dan pedoman pengembangan (development guidelines).
+
+🤝 Kontribusi
+
+Kami sangat terbuka dengan masukan dan kolaborasi! Jika ada bug, error log, atau ingin menambahkan fitur baru (misalnya dukungan multibahasa termasuk opsi lokalisasi ke bahasa daerah), silakan buka Issue atau kirimkan Pull Request.
+📄 Lisensi
+
+MIT License - Bebas digunakan dan dimodifikasi untuk kebutuhan personal maupun tim.
+"""
+
+file_path = "/mnt/data/README.md"
+with open(file_path, "w", encoding="utf-8") as f:
+f.write(readme_content)
+
+print("File generated at", file_path)
+
+File Markdown (`README.md`) kamu sudah siap!
+[file-tag: code-generated-file-0-1777988533674525362]
