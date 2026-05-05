@@ -45,7 +45,7 @@ export function Footer() {
               <Phone className="w-5 h-5" />
             </Link>
             <Link
-              href="https://github.com/SEPKOR"
+              href="https://github.com/ACPTeam-Dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-neon-blue transition-colors"

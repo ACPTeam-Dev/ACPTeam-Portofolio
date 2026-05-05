@@ -32,7 +32,7 @@ export default function ProjectsPage() {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const res = await fetch("https://api.github.com/users/SEPKOR/repos?sort=updated&per_page=6");
+        const res = await fetch("https://api.github.com/users/ACPTeam-Dev/repos?sort=updated&per_page=6");
         if (!res.ok) throw new Error("Failed to fetch repositories");
         const data = await res.json();
         setRepos(data.filter((repo: Repo) => !repo.fork));
@@ -158,7 +158,7 @@ export default function ProjectsPage() {
       
       <div className="text-center mt-12">
         <Link 
-          href="https://github.com/SEPKOR" 
+          href="https://github.com/ACPTeam-Dev" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-flex items-center px-6 py-3 bg-white/5 border border-white/10 hover:border-neon-blue text-foreground hover:text-neon-blue font-mono text-sm rounded-lg transition-all"

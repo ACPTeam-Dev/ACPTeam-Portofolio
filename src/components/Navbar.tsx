@@ -76,7 +76,7 @@ export function Navbar() {
           {/* Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              href="https://github.com/SEPKOR"
+              href="https://github.com/ACPTeam-Dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-neon-blue transition-colors"
@@ -133,7 +133,7 @@ export function Navbar() {
             
             <div className="flex items-center justify-between px-3 py-2 mt-4 border-t border-white/10">
               <Link
-                href="https://github.com/SEPKOR"
+                href="https://github.com/ACPTeam-Dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-neon-blue transition-colors"
